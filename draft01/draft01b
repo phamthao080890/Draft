@@ -1,0 +1,18 @@
+. Phân loại lớp (Class) - version 2
+Nhóm	Lớp	Mô tả
+Entity class	Movie, 
+Genre
+Ranking, 
+User	Lưu trữ thông tin dữ liệu trong hệ thống
+Boundary class	GiaoDienMovie, 
+GiaoDienMovieDetails, 
+GiaoDienGenre,
+GiaoDienFavorites
+GiaoDienSearch,
+GiaoDienRegister,
+GiaoDienLogin 	Giao diện người dùng
+Control class	MovieController,
+GenreController,
+SearchController,
+UserController,
+FavoriteController	Xử lý logic nghiệp vụ
