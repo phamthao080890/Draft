@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { API } from "../api/api";
-import MovieCard from "../components/MovieCard"; 
+import MovieCard from "../components/MovieCard";
 import "../components/MovieCard.css";
 
 export default function Favourites() {
