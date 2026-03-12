@@ -1,4 +1,4 @@
-# Streaming App Frontend
+# Streaming App Frontend (v1)
 
 React app for browsing movies, genres, favourites, and viewing details with authentication (login/register/profile). Built with Create React App.
 
