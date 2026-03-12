@@ -13,7 +13,7 @@ export default function Favourites() {
                 setMessage("Vui lòng đăng nhập để xem phim yêu thích");
                 return;
             }
-           // API
+           // API fix
             API.get(`/users/${userId}/favourites`)
                     .then(res => {
                         const favIds = res.data;
