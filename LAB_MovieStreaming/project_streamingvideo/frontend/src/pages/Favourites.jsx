@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { API } from "../api/api";
-import MovieCard from "../components/MovieCard";
+import MovieCard from "../components/MovieCard"; 
 import "../components/MovieCard.css";
 
 export default function Favourites() {
@@ -13,7 +13,7 @@ export default function Favourites() {
                 setMessage("Vui lòng đăng nhập để xem phim yêu thích");
                 return;
             }
-            //Step 1: Get favourite movie IDs
+           // API
             API.get(`/users/${userId}/favourites`)
                     .then(res => {
                         const favIds = res.data;
